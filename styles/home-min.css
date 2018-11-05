@@ -1,0 +1,200 @@
+header{
+	width: auto;
+}
+.product_intro{
+	width: auto;
+	height: auto;
+}
+#div_slogan{
+	width: auto;
+}
+.feature{
+	width: auto;
+}
+#Guilt-free{
+	height: auto;
+	padding-top: 9%;
+	padding-bottom: 26%;
+	background-size: cover;
+}
+#flavors{
+	padding-top: 9%;
+	padding-bottom: 26%;
+	height: auto;
+	background-size: cover;
+}
+#pickup{
+	width: auto;
+	height: auto;
+}
+#pickup_imgBox a{
+	width: 12.85%;
+	height: 12.85vw;
+}
+#pickup_imgBox a img{
+	width: 100%;
+	height: 100%;
+}
+#aboutUs{
+	width: auto;
+	background-size: cover;
+}
+#social{
+	width: auto;
+}
+#social_img_box a{
+	width: 14.6%;
+	height: 14.6vw;
+}
+#email_contact{
+	width: auto;
+}
+footer{
+	width: auto;
+}
+#ad_fixed{
+	width: 100%;
+}
+@media (max-width: 1600px) {
+	#social_img_box .social_text h4{
+		display: none;
+	}
+
+	#social_img_box .social_article{
+		display: none;
+	}
+	#social_img_box .social_text{
+		padding-top: 40%;
+	}
+}
+@media (max-width: 1500px) {
+	#nav_box{
+		padding: 0px;
+	}
+	nav {
+		width: auto;
+		height: 150px;
+	}
+	nav div{
+		display: none;
+	}
+	nav #img_box{
+		margin-top: 44px;
+		width: 192px;
+		margin-left: -96px;
+		display: block;
+	}
+	#cart_box{
+		margin: 0;
+		float: none;
+		position: absolute;
+		top: 40px;
+		right: 32px;
+		display: block;
+	}
+	#sidebar_btn{
+		position: relative;
+		top: 0px;
+		left: -10px;
+		display: block;
+	}
+	#pickup{
+		overflow: hidden;
+	}
+	#pickup_imgBox{
+		width: 250%;
+		height: 350px;
+	}
+	#pickup_imgBox a{
+		float: left;
+		width: 10%;
+		margin: 0 1.45%;
+	}
+	#pickup_imgBox a img{
+		height: auto;
+	}
+	#left_arrow{
+		left: 4px;
+	}
+	#right_arrow{
+		left: 38%;
+	}
+	#social_img_box a{
+		width: 28%;
+		height: 28vw;
+		margin-bottom: 16px;
+	}
+	#social_img_box .social_text h4{
+		display: inline;
+	}
+
+	#social_img_box .social_article{
+		display: block;
+	}
+	#social_img_box .social_text{
+		padding-top: 24%;
+	}
+	#social_img_box #social_first{
+		margin-left: 6.8%;
+	}
+	#social_img_box #social_fourth{
+		margin-left: 6.8%;
+	}
+	#email_contact{
+		height: auto;
+		padding: 48px 5%;
+	}
+	#email_contact p{
+		width: auto;
+		height: auto;
+		margin: 0;
+		line-height: 2em;
+		position: static;
+	}
+	#email_contact input{
+		width: 95.4%;
+		position: static;
+	}
+	#email_contact a{
+		top: 118px;
+		right: 8%;
+	}
+	.footer_column{
+		width: 20%;
+		margin-left: 20%;
+		margin-bottom: 100px; 
+	}
+}
+@media (max-width: 1000px) {
+	header{
+		width: 1000px;
+	}
+	.product_intro{
+		width: 1000px;
+	}
+	#div_slogan{
+		width: 1000px;
+	}
+	.feature{
+		width: 1000px;
+	}
+	#pickup{
+		width: 1000px;
+	}
+	#aboutUs{
+		width: 1000px;
+	}
+	#social{
+		width: 1000px;
+	}
+	#email_contact{
+		width: 900px;
+		padding: 48px 50px;
+	}
+	footer{
+		width: 1000px;
+	}
+	#ad_fixed{
+		width: 1000px;
+	}
+}

@@ -1,0 +1,45 @@
+@font-face{
+	font-family: "Gotham";
+	src: url(../fonts/GothamBook.woff2)format('woff2'),
+		 url(../fonts/GothamBook.woff)format('woff'),
+		 url(../fonts/GothamBook.ttf)format('truetype');
+	font-weight: normal;
+}
+@font-face{
+	font-family: "Montserrat";
+	src: url(../fonts/Montserrat-Black.woff2)format('woff2'),
+		 url(../fonts/Montserrat-Black.woff)format('woff'),
+		 url(../fonts/Montserrat-Black.ttf)format('truetype');
+	font-weight: normal;
+}
+@font-face{
+	font-family: "TradeGothic";
+	src: url(../fonts/TradeGothic-BoldTwo.ttf)format('truetype');
+/*	font-weight: bolder;*/
+}
+h1{
+	font-family: "Montserrat",arial,sans-serif;
+	font-weight: normal;
+	letter-spacing: .08em;
+}
+p{
+	font-family: "Gotham",arial,sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+#social h3{
+	font-family: "TradeGothic",arial,sans-serif;
+	font-size: 2em;
+}
+#email_contact p{
+	font-family: "TradeGothic",arial,sans-serif;
+	font-size: 1.8em;
+	letter-spacing: -0.04em;
+}
+#footer a{
+	font-family: arial,sans-serif;
+	letter-spacing: .1em;
+}
+#footer .footer_rowHeader,#footer p{
+	font-family: "TradeGothic",arial,sans-serif;
+	letter-spacing: 0em;
+}
