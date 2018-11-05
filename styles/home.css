@@ -356,6 +356,7 @@ section .balloon,#div_slogan .balloon{
 }
 #pickup_imgBox a{
 	float: left;
+	width: 12.85%;
 	height: 240px;
 	margin: 0 3.4%;
 }
